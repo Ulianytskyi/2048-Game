@@ -93,3 +93,53 @@ h1 {
     background-color: #eee4da;
     color: #727371;
 }
+
+.box-4 {
+    background-color: #eee1c9;
+    color: #727371
+}
+
+.box-8 {
+    background-color: #f3b27a;
+    color: #ffffff
+}
+
+.box-16 {
+    background-color: #f69664;
+    color: #ffffff
+}
+
+.box-32 {
+    background-color: #f77c5f;
+    color: #ffffff
+}
+
+.box-64 {
+    background-color: #f75f3b;
+    color: #ffffff
+}
+
+.box-128 {
+    background-color: #edd073;
+    color: #ffffff
+}
+
+.box-256 {
+    background-color: #edcc64;
+    color: #ffffff
+}
+
+.box-512 {
+    background-color: #edc651;
+    color: #ffffff
+}
+
+.box-1024 {
+    background-color: #eec744;
+    color: #ffffff
+}
+
+.box-2048 {
+    background-color: #ecc230;
+    color: #ffffff
+}

@@ -306,4 +306,5 @@ const startGame = () => {
 startButton.addEventListener("click", () => {
   startGame();
   swipedDirection = "";
+  document.body.style.overflow = "hidden";
 });
