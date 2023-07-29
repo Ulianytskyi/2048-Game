@@ -262,12 +262,13 @@ grid.addEventListener("touchstart", (event) => {
 });
 
 grid.addEventListener("touchmove", (event) => {
+    event.preventDefault();
   if (isSwiped) {
     getXY(event);
     let diffX = touchX - initialX;
     let diffY = touchY - initialY;
     if (Math.abs(diffY) > Math.abs(diffX)) {
-      swipedDirection = diffX > 0 ? "down" : "up";
+      swipedDirection = diffY > 0 ? "down" : "up";
     } else {
       swipedDirection = diffX > 0 ? "right" : "left";
     }

@@ -143,3 +143,27 @@ h1 {
     background-color: #ecc230;
     color: #ffffff
 }
+
+@media (max-width: 380px) {
+    .grid {
+        width: 290px;
+        height: 290px;
+        background-color: #cdc1b5;
+        border: 3px solid #bbada0;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        border-radius: 0.25em;
+    }
+
+    .box {
+        width: 71px;
+        height: 71px;
+        border: 3px solid #bbada0;
+        font-size: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
